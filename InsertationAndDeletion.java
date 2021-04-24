@@ -22,6 +22,7 @@ public class InsertationAndDeletion {
         } else {
             tail.next = node;
             tail = node;
+            System.out.println("the output is ");
         }
     }
 
